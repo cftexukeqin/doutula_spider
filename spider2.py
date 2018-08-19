@@ -1,9 +1,9 @@
 # 采用Queue队列的方式，
 # 生产者 --> 产生 表情url,img_queue
 # 消费者，进行图片下载
+# page_queue 是在主函数中进行数据添加
 
 # 传统的同步下载方式
-#
 
 import requests
 from lxml import etree
